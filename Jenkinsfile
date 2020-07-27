@@ -1,8 +1,8 @@
 node('master') 
 {
-    stage('Continuous Download') 
+    stage('Continuous Download_loan') 
 	{
-    git 'https://github.com/sunildevops77/maven.git'
+    git 'https://github.com/arundevlops/jenkins-multibranch-12.git'
 	}
     stage('Continuous Build') 
 	{
